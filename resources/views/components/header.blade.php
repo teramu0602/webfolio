@@ -1,6 +1,6 @@
 <header>
     <div class="header">
-        <a  href="/webfolio" class="header-logo">
+        <a  href="/" class="header-logo">
             <div class="logo1">
                 Web
             </div>
