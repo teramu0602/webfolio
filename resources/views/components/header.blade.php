@@ -1,19 +1,19 @@
 <header>
     <div class="header">
-        <div class="header-logo">
+        <a  href="/webfolio" class="header-logo">
             <div class="logo1">
                 Web
             </div>
             <div class="logo2">
                 Folio
             </div>
-        </div>
+        </a>
         <ul class="header-menu">
-            <li><a href="/">事業紹介</a></li>
-            <li><a href="/">企業情報</a></li>
-            <li><a href="/">お問い合わせ</a></li>
-            <li><a href="/">採用情報</a></li>
-            <li><a href="/">ニュース</a></li>
+            <li><a href="{{ route('webfolio.introduction') }}">事業紹介</a></li>
+            <li><a href="{{ route('webfolio.company') }}">企業情報</a></li>
+            <li><a href="{{ route('webfolio.contact') }}">お問い合わせ</a></li>
+            <li><a href="{{ route('webfolio.recruit') }}">採用情報</a></li>
+            <li><a href="{{ route('webfolio.news') }}">ニュース</a></li>
         </ul>
     </div>
 </header>
